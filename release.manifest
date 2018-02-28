@@ -1,0 +1,65 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-phaser-ce/semantic.js
+/pxt-phaser-ce/main.js
+/pxt-phaser-ce/typescript.js
+/pxt-phaser-ce/marked/marked.min.js
+/pxt-phaser-ce/highlight.js/highlight.pack.js
+/pxt-phaser-ce/lzma/lzma_worker-min.js
+/pxt-phaser-ce/fuse.min.js
+/pxt-phaser-ce/jquery.js
+/pxt-phaser-ce/pxtlib.js
+/pxt-phaser-ce/pxtcompiler.js
+/pxt-phaser-ce/pxtblocks.js
+/pxt-phaser-ce/pxtwinrt.js
+/pxt-phaser-ce/pxteditor.js
+/pxt-phaser-ce/pxtsim.js
+/pxt-phaser-ce/blockly.css
+/pxt-phaser-ce/semantic.css
+/pxt-phaser-ce/rtlsemantic.css
+/pxt-phaser-ce/custom.css
+/pxt-phaser-ce/icons.css
+
+
+
+
+# blockly
+/pxt-phaser-ce/blockly/blockly_compressed.js
+/pxt-phaser-ce/blockly/blocks_compressed.js
+/pxt-phaser-ce/blockly/msg/js/en.js
+/pxt-phaser-ce/blockly/media/sprites.png
+/pxt-phaser-ce/blockly/media/click.mp3
+/pxt-phaser-ce/blockly/media/disconnect.wav
+/pxt-phaser-ce/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-phaser-ce/vs/loader.js
+/pxt-phaser-ce/vs/base/worker/workerMain.js
+/pxt-phaser-ce/vs/basic-languages/src/bat.js
+/pxt-phaser-ce/vs/basic-languages/src/cpp.js
+/pxt-phaser-ce/vs/editor/editor.main.css
+/pxt-phaser-ce/vs/editor/editor.main.js
+/pxt-phaser-ce/vs/editor/editor.main.nls.js
+/pxt-phaser-ce/vs/language/json/jsonMode.js
+/pxt-phaser-ce/vs/language/json/jsonWorker.js
+/pxt-phaser-ce/vs/language/typescript/lib/typescriptServices.js
+/pxt-phaser-ce/vs/language/typescript/src/mode.js
+/pxt-phaser-ce/vs/language/typescript/src/worker.js
+
+# charts
+/pxt-phaser-ce/smoothie/smoothie_compressed.js
+/pxt-phaser-ce/images/Bars_black.gif
+
+# ai
+https://az416426.vo.msecnd.net/scripts/a/ai.0.js
+
+/pxt-phaser-ce/worker.js
+/pxt-phaser-ce/monacoworker.js
+
+# ver Wed Feb 28 2018 10:48:32 GMT-0800 (Pacific Standard Time)
+
+/pxt-phaser-ce/target.js
+  
+NETWORK:
+*

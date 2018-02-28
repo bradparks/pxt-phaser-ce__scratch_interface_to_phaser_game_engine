@@ -1,0 +1,446 @@
+{
+  "logoUrl": "https://github.com/Microsoft/pxt-phaser-ce",
+  "homeUrl": "http://microsoft.github.io/pxt-phaser-ce/",
+  "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+  "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
+  "betaUrl": "https://makecode.com/",
+  "docMenu": [
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Docs",
+      "path": "/docs"
+    }
+  ],
+  "coloredToolbox": true,
+  "monacoToolbox": true,
+  "invertedMenu": true,
+  "showHomeScreen": true,
+  "homeScreenHero": "data:image/png;base64,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",
+  "blocklyOptions": {
+    "grid": {
+      "spacing": 45,
+      "length": 7,
+      "colour": "rgba(189, 195, 199, 0.30)",
+      "snap": true
+    }
+  },
+  "simAnimationEnter": "fly right in",
+  "simAnimationExit": "fly right out",
+  "monacoColors": {
+    "editor.background": "#ecf0f1"
+  },
+  "TOC": [
+    {
+      "name": "About",
+      "subitems": [],
+      "path": "/about",
+      "nextName": "Blocks",
+      "nextPath": "/blocks"
+    },
+    {
+      "name": "Blocks",
+      "subitems": [
+        {
+          "name": "On Start",
+          "subitems": [],
+          "path": "/blocks/on-start",
+          "prevName": "Blocks",
+          "prevPath": "/blocks",
+          "nextName": "Loops",
+          "nextPath": "/blocks/loops"
+        },
+        {
+          "name": "Loops",
+          "subitems": [
+            {
+              "name": "repeat",
+              "subitems": [],
+              "path": "/blocks/loops/repeat",
+              "prevName": "Loops",
+              "prevPath": "/blocks/loops",
+              "nextName": "for",
+              "nextPath": "/blocks/loops/for"
+            },
+            {
+              "name": "for",
+              "subitems": [],
+              "path": "/blocks/loops/for",
+              "prevName": "repeat",
+              "prevPath": "/blocks/loops/repeat",
+              "nextName": "while",
+              "nextPath": "/blocks/loops/while"
+            },
+            {
+              "name": "while",
+              "subitems": [],
+              "path": "/blocks/loops/while",
+              "prevName": "for",
+              "prevPath": "/blocks/loops/for",
+              "nextName": "Logic",
+              "nextPath": "/blocks/logic"
+            }
+          ],
+          "path": "/blocks/loops",
+          "prevName": "On Start",
+          "prevPath": "/blocks/on-start",
+          "nextName": "repeat",
+          "nextPath": "/blocks/loops/repeat"
+        },
+        {
+          "name": "Logic",
+          "subitems": [
+            {
+              "name": "if",
+              "subitems": [],
+              "path": "/blocks/logic/if",
+              "prevName": "Logic",
+              "prevPath": "/blocks/logic",
+              "nextName": "Boolean",
+              "nextPath": "/blocks/logic/boolean"
+            },
+            {
+              "name": "Boolean",
+              "subitems": [],
+              "path": "/blocks/logic/boolean",
+              "prevName": "if",
+              "prevPath": "/blocks/logic/if",
+              "nextName": "Variables",
+              "nextPath": "/blocks/variables"
+            }
+          ],
+          "path": "/blocks/logic",
+          "prevName": "while",
+          "prevPath": "/blocks/loops/while",
+          "nextName": "if",
+          "nextPath": "/blocks/logic/if"
+        },
+        {
+          "name": "Variables",
+          "subitems": [
+            {
+              "name": "assign",
+              "subitems": [],
+              "path": "/blocks/variables/assign",
+              "prevName": "Variables",
+              "prevPath": "/blocks/variables",
+              "nextName": "change var",
+              "nextPath": "/blocks/variables/change"
+            },
+            {
+              "name": "change var",
+              "subitems": [],
+              "path": "/blocks/variables/change",
+              "prevName": "assign",
+              "prevPath": "/blocks/variables/assign",
+              "nextName": "var",
+              "nextPath": "/blocks/variables/var"
+            },
+            {
+              "name": "var",
+              "subitems": [],
+              "path": "/blocks/variables/var",
+              "prevName": "change var",
+              "prevPath": "/blocks/variables/change",
+              "nextName": "Math",
+              "nextPath": "/blocks/math"
+            }
+          ],
+          "path": "/blocks/variables",
+          "prevName": "Boolean",
+          "prevPath": "/blocks/logic/boolean",
+          "nextName": "assign",
+          "nextPath": "/blocks/variables/assign"
+        },
+        {
+          "name": "Math",
+          "subitems": [],
+          "path": "/blocks/math",
+          "prevName": "var",
+          "prevPath": "/blocks/variables/var",
+          "nextName": "JavaScript blocks",
+          "nextPath": "/blocks/javascript-blocks"
+        },
+        {
+          "name": "JavaScript blocks",
+          "subitems": [],
+          "path": "/blocks/javascript-blocks",
+          "prevName": "Math",
+          "prevPath": "/blocks/math",
+          "nextName": "Custom blocks",
+          "nextPath": "/blocks/custom"
+        },
+        {
+          "name": "Custom blocks",
+          "subitems": [],
+          "path": "/blocks/custom",
+          "prevName": "JavaScript blocks",
+          "prevPath": "/blocks/javascript-blocks",
+          "nextName": "JavaScript",
+          "nextPath": "/javascript"
+        }
+      ],
+      "path": "/blocks",
+      "prevName": "About",
+      "prevPath": "/about",
+      "nextName": "On Start",
+      "nextPath": "/blocks/on-start"
+    },
+    {
+      "name": "JavaScript",
+      "subitems": [
+        {
+          "name": "Calling",
+          "subitems": [],
+          "path": "/javascript/call",
+          "prevName": "JavaScript",
+          "prevPath": "/javascript",
+          "nextName": "Sequencing",
+          "nextPath": "/javascript/sequence"
+        },
+        {
+          "name": "Sequencing",
+          "subitems": [],
+          "path": "/javascript/sequence",
+          "prevName": "Calling",
+          "prevPath": "/javascript/call",
+          "nextName": "Variables",
+          "nextPath": "/javascript/variables"
+        },
+        {
+          "name": "Variables",
+          "subitems": [],
+          "path": "/javascript/variables",
+          "prevName": "Sequencing",
+          "prevPath": "/javascript/sequence",
+          "nextName": "Operators",
+          "nextPath": "/javascript/operators"
+        },
+        {
+          "name": "Operators",
+          "subitems": [],
+          "path": "/javascript/operators",
+          "prevName": "Variables",
+          "prevPath": "/javascript/variables",
+          "nextName": "Statements",
+          "nextPath": "/javascript/statements"
+        },
+        {
+          "name": "Statements",
+          "subitems": [],
+          "path": "/javascript/statements",
+          "prevName": "Operators",
+          "prevPath": "/javascript/operators",
+          "nextName": "Functions",
+          "nextPath": "/javascript/functions"
+        },
+        {
+          "name": "Functions",
+          "subitems": [],
+          "path": "/javascript/functions",
+          "prevName": "Statements",
+          "prevPath": "/javascript/statements",
+          "nextName": "Types",
+          "nextPath": "/javascript/types"
+        },
+        {
+          "name": "Types",
+          "subitems": [],
+          "path": "/javascript/types",
+          "prevName": "Functions",
+          "prevPath": "/javascript/functions",
+          "nextName": "Classes",
+          "nextPath": "/javascript/classes"
+        },
+        {
+          "name": "Classes",
+          "subitems": [],
+          "path": "/javascript/classes",
+          "prevName": "Types",
+          "prevPath": "/javascript/types",
+          "nextName": "Interfaces",
+          "nextPath": "/javascript/interfaces"
+        },
+        {
+          "name": "Interfaces",
+          "subitems": [],
+          "path": "/javascript/interfaces",
+          "prevName": "Classes",
+          "prevPath": "/javascript/classes",
+          "nextName": "Generics",
+          "nextPath": "/javascript/generics"
+        },
+        {
+          "name": "Generics",
+          "subitems": [],
+          "path": "/javascript/generics",
+          "prevName": "Interfaces",
+          "prevPath": "/javascript/interfaces",
+          "nextName": "Types",
+          "nextPath": "/types"
+        }
+      ],
+      "path": "/javascript",
+      "prevName": "Custom blocks",
+      "prevPath": "/blocks/custom",
+      "nextName": "Calling",
+      "nextPath": "/javascript/call"
+    },
+    {
+      "name": "Types",
+      "subitems": [
+        {
+          "name": "Number",
+          "subitems": [],
+          "path": "/types/number",
+          "prevName": "Types",
+          "prevPath": "/types",
+          "nextName": "String",
+          "nextPath": "/types/string"
+        },
+        {
+          "name": "String",
+          "subitems": [],
+          "path": "/types/string",
+          "prevName": "Number",
+          "prevPath": "/types/number",
+          "nextName": "Boolean",
+          "nextPath": "/types/boolean"
+        },
+        {
+          "name": "Boolean",
+          "subitems": [],
+          "path": "/types/boolean",
+          "prevName": "String",
+          "prevPath": "/types/string",
+          "nextName": "Array",
+          "nextPath": "/types/array"
+        },
+        {
+          "name": "Array",
+          "subitems": [],
+          "path": "/types/array",
+          "prevName": "Boolean",
+          "prevPath": "/types/boolean",
+          "nextName": "Function",
+          "nextPath": "/types/function"
+        },
+        {
+          "name": "Function",
+          "subitems": [],
+          "path": "/types/function",
+          "prevName": "Array",
+          "prevPath": "/types/array",
+          "nextName": "About",
+          "nextPath": "/about"
+        }
+      ],
+      "path": "/types",
+      "prevName": "Generics",
+      "prevPath": "/javascript/generics",
+      "nextName": "Number",
+      "nextPath": "/types/number"
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "About",
+          "subitems": [],
+          "path": "/about",
+          "prevName": "Function",
+          "prevPath": "/types/function",
+          "nextName": "Support",
+          "nextPath": "/support"
+        },
+        {
+          "name": "Support",
+          "subitems": [],
+          "path": "/support",
+          "prevName": "About",
+          "prevPath": "/about",
+          "nextName": "FAQ",
+          "nextPath": "/faq"
+        },
+        {
+          "name": "FAQ",
+          "subitems": [],
+          "path": "/faq",
+          "prevName": "Support",
+          "prevPath": "/support",
+          "nextName": "Translate",
+          "nextPath": "/translate"
+        },
+        {
+          "name": "Translate",
+          "subitems": [],
+          "path": "/translate",
+          "prevName": "FAQ",
+          "prevPath": "/faq",
+          "nextName": "Sharing projects",
+          "nextPath": "/share"
+        },
+        {
+          "name": "Sharing projects",
+          "subitems": [],
+          "path": "/share",
+          "prevName": "Translate",
+          "prevPath": "/translate",
+          "nextName": "Offline support",
+          "nextPath": "/offline"
+        },
+        {
+          "name": "Offline support",
+          "subitems": [],
+          "path": "/offline",
+          "prevName": "Sharing projects",
+          "prevPath": "/share",
+          "nextName": "Command Line Interface",
+          "nextPath": "/cli"
+        }
+      ],
+      "prevName": "Function",
+      "prevPath": "/types/function"
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "Command Line Interface",
+          "subitems": [],
+          "path": "/cli",
+          "prevName": "Offline support",
+          "prevPath": "/offline",
+          "nextName": "Visual Studio Code support",
+          "nextPath": "/code"
+        },
+        {
+          "name": "Visual Studio Code support",
+          "subitems": [],
+          "path": "/code",
+          "prevName": "Command Line Interface",
+          "prevPath": "/cli",
+          "nextName": "Blocks Embed",
+          "nextPath": "/blocks-embed"
+        },
+        {
+          "name": "Blocks Embed",
+          "subitems": [],
+          "path": "/blocks-embed",
+          "prevName": "Visual Studio Code support",
+          "prevPath": "/code"
+        }
+      ],
+      "prevName": "Offline support",
+      "prevPath": "/offline"
+    }
+  ],
+  "embedUrl": "http://microsoft.github.io/pxt-phaser-ce/",
+  "id": "phaserce",
+  "title": "MakeCode for Phaser CE",
+  "name": "Phaser CE",
+  "homeScreenHeroCDN": "@cdnUrl@/blob/6c9689d39f7e9531f0e0e05a74cc408098e4a07d/static/hero.png",
+  "htmlDocIncludes": {}
+}
