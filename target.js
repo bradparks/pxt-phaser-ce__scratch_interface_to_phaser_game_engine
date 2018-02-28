@@ -524,7 +524,7 @@ var pxtTargetBundle = {
     "floatingPoint": true
   },
   "versions": {
-    "target": "0.0.3",
+    "target": "0.0.4",
     "pxt": "3.4.12"
   }
 }
