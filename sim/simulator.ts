@@ -38,9 +38,9 @@ namespace pxsim {
         initAsync(msg: pxsim.SimulatorRunMessage): Promise<void> {
 
             this.game = new Phaser.Game(800, 600, Phaser.AUTO, '', {
-                preload: () => this.preload,
-                create: () => this.create,
-                update: () => this.update
+                preload: () => this.preload(),
+                create: () => this.create(),
+                update: () => this.update()
             });
 
             return Promise.resolve();
