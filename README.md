@@ -1,6 +1,6 @@
 # Sample Phaser CE based MakeCode Editor
 
-This repo contains a sample editor built with [Microsoft MakeCode](https://github.com/Microsoft/pxt). The editor is hosted on the GitHub pages at [http://microsoft.github.io/pxt-phaser-ce/](http://microsoft.github.io/pxt-phaser-ce/)
+This repo contains a sample editor built with [Microsoft MakeCode](https://github.com/Microsoft/pxt). The editor is hosted on the GitHub pages at [https://microsoft.github.io/pxt-phaser-ce/](http://microsoft.github.io/pxt-phaser-ce/)
 
 [![Build Status](https://travis-ci.org/Microsoft/pxt-sample.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-sample)
 
