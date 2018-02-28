@@ -1,7 +1,7 @@
 {
-    "id": "sample",
-    "name": "sample",
-    "title": "MakeCode Editor Sample",
+    "id": "phaserce",
+    "name": "Phaser CE",
+    "title": "MakeCode for Phaser CE",
     "corepkg": "core",
     "cloud": {
         "workspace": false,
@@ -23,8 +23,8 @@
         "autoRun": true
     },
     "appTheme": {
-        "logoUrl": "https://github.com/Microsoft/pxt-sample",
-        "homeUrl": "http://microsoft.github.io/pxt-sample/",
+        "logoUrl": "https://github.com/Microsoft/pxt-phaser-ce",
+        "homeUrl": "http://microsoft.github.io/pxt-phaser-ce/",
         "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
         "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
         "betaUrl": "https://makecode.com/",

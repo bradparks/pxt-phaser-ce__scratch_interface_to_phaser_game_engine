@@ -1,4 +1,5 @@
 /// <reference path="../node_modules/pxt-core/built/pxtsim.d.ts"/>
+/// <reference path="../node_modules/phaser-ce/typescript/phaser.d.ts" />
 
 namespace pxsim {
     /**
@@ -11,7 +12,7 @@ namespace pxsim {
     /**
      * Gets the current 'board', eg. program state.
      */
-    export function board() : Board {
+    export function board(): Board {
         return runtime.board as Board;
     }
 
@@ -21,28 +22,43 @@ namespace pxsim {
      */
     export class Board extends pxsim.BaseBoard {
         public bus: EventBus;
-        public element : SVGSVGElement;
-        public spriteElement: SVGCircleElement;
-        public sprite : Sprite;
-        
+        public game: Phaser.Game;
+
         constructor() {
             super();
             this.bus = new EventBus(runtime);
-            this.element = <SVGSVGElement><any>document.getElementById('svgcanvas');
-            this.spriteElement = <SVGCircleElement>this.element.getElementById('svgsprite');
-            this.sprite = new Sprite()
         }
-        
+
         initAsync(msg: pxsim.SimulatorRunMessage): Promise<void> {
-            document.body.innerHTML = ''; // clear children
-            document.body.appendChild(this.element);
+
+            this.game = new Phaser.Game(320, 320, Phaser.AUTO, '', {
+                preload: () => this.preload,
+                create: () => this.create,
+                update: () => this.update
+            });
 
             return Promise.resolve();
-        }       
-        
+        }
+
+        preload() {
+            this.game.load.image('sky', 'assets/sky.png');
+            this.game.load.image('ground', 'assets/platform.png');
+            this.game.load.image('star', 'assets/star.png');
+            this.game.load.spritesheet('dude', 'assets/dude.png', 32, 48);
+        }
+
+        create() {
+        }
+
+        update() {
+        }
+
+        kill() {
+            super.kill();
+            this.game.destroy();
+        }
+
         updateView() {
-            this.spriteElement.cx.baseVal.value = this.sprite.x;
-            this.spriteElement.cy.baseVal.value = this.sprite.y;
         }
     }
 }

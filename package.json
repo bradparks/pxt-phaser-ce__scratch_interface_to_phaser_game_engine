@@ -1,7 +1,7 @@
 {
-  "name": "pxt-phaser",
+  "name": "pxt-phaser-ce",
   "version": "0.0.1",
-  "description": "phaser.io editor sample",
+  "description": "phaser ce editor sample",
   "keywords": [
     "JavaScript",
     "education",
@@ -38,6 +38,7 @@
     "@types/node": "8.0.53"
   },
   "dependencies": {
+    "phaser-ce": "^2.10.1",
     "pxt-core": "3.*"
   }
 }
