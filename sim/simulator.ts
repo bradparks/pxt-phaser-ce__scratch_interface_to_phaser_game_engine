@@ -129,13 +129,10 @@ namespace pxsim {
 
             //  Collide the player and the stars with the platforms
             var hitPlatform = this.game.physics.arcade.collide(this.player, this.platforms);
-            this.game.physics.arcade.collide(this.stars, this.platforms);
 
             //  Checks to see if the player overlaps with any of the stars, if he does call the collectStar function
             this.game.physics.arcade.overlap(this.player, this.stars, (p: Phaser.Sprite, s: Phaser.Sprite) => this.collectStar(p, s), null, this);
 
-            //  Reset the players velocity (movement)
-            this.player.body.velocity.x = 0;
 
             if (this.cursors.left.isDown) {
                 //  Move to the left
